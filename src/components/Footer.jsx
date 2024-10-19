@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -11,36 +10,36 @@ const Footer = () => {
           </h4>
           <ul className="space-y-5">
             <li>
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="hover:text-[#25aae1] text-gray-300 text-[15px] transition-all"
               >
                 Our Story
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="hover:text-[#25aae1] text-gray-300 text-[15px] transition-all"
               >
                 Newsroom
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="hover:text-[#25aae1] text-gray-300 text-[15px] transition-all"
               >
                 Careers
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="hover:text-[#25aae1] text-gray-300 text-[15px] transition-all"
               >
                 Blog
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
@@ -51,36 +50,36 @@ const Footer = () => {
           </h4>
           <ul className="space-y-5">
             <li>
-              <Link
+              <a
                 href="/"
                 className="hover:text-[#25aae1] text-gray-300 text-[15px] transition-all"
               >
                 Web Development
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="hover:text-[#25aae1] text-gray-300 text-[15px] transition-all"
               >
                 Testing Automation
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="hover:text-[#25aae1] text-gray-300 text-[15px] transition-all"
               >
                 AWS Development Services
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="hover:text-[#25aae1] text-gray-300 text-[15px] transition-all"
               >
                 Mobile App Development
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
@@ -91,36 +90,36 @@ const Footer = () => {
           </h4>
           <ul className="space-y-5">
             <li>
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="hover:text-[#25aae1] text-gray-300 text-[15px] transition-all"
               >
                 Hubspot
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="hover:text-[#25aae1] text-gray-300 text-[15px] transition-all"
               >
                 Marketo Integration Services
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="hover:text-[#25aae1] text-gray-300 text-[15px] transition-all"
               >
                 Marketing Glossary
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="hover:text-[#25aae1] text-gray-300 text-[15px] transition-all"
               >
                 UIPath
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
@@ -129,36 +128,36 @@ const Footer = () => {
           <h4 className="text-[#25aae1] font-semibold text-lg mb-6">Company</h4>
           <ul className="space-y-5">
             <li>
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="hover:text-[#25aae1] text-gray-300 text-[15px] transition-all"
               >
                 Accessibility
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="hover:text-[#25aae1] text-gray-300 text-[15px] transition-all"
               >
                 About
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="hover:text-[#25aae1] text-gray-300 text-[15px] transition-all"
               >
                 Contact
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="/"
+              <a
+                href="/"
                 className="hover:text-[#25aae1] text-gray-300 text-[15px] transition-all"
               >
                 Learn more
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
