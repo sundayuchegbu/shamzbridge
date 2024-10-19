@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import shamzbridge from "../images/shamzbridge.png";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [isToggleOpen, setIsToggleOpen] = useState(false);
 
@@ -19,7 +20,7 @@ const Navbar = () => {
               aria-label="WindUI logo"
               aria-current="page"
               className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1 text-[#25aae1]"
-              href="javascript:void(0)"
+              href="#"
             >
               <img
                 src={shamzbridge}
@@ -67,35 +68,35 @@ const Navbar = () => {
               }`}
             >
               <li role="none" className="flex items-stretch">
-                <a
+                <Link
                   role="menuitem"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors text-[#25aae1] duration-300 hover:text-emerald-500 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="javascript:void(0)"
+                  to="/"
                 >
                   <span>Home</span>
-                </a>
+                </Link>
               </li>
 
               <li role="none" className="flex items-stretch">
-                <a
+                <Link
                   role="menuitem"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300 text-[#25aae1] hover:text-emerald-500 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="#services"
+                  to="#services"
                 >
                   <span>Services</span>
-                </a>
+                </Link>
               </li>
               <li role="none" className="flex items-stretch">
-                <a
+                <Link
                   role="menuitem"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 text-[#25aae1] transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
-                  href="#about"
+                  to="#about"
                 >
                   <span>About</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -17,12 +18,12 @@ const Banner = () => {
           Welcome to Shamzbridge Consulting
         </h1>
         <p className="text-lg text-gray-300 mb-8">... your trusted ally</p>
-        <a
-          href="#"
+        <Link
+          to="/"
           className="bg-[#25aae1] text-gray-100 hover:bg-blue-700 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
         >
           Get Started
-        </a>
+        </Link>
       </div>
     </div>
   );
