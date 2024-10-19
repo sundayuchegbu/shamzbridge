@@ -124,7 +124,7 @@ const Services = () => {
             <p className="px-4 text-gray-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iure
               inventore amet modi accusantium vero perspiciatis, incidunt dicta
-              sed aspernatur!
+              sed aspernatur! dhbc
             </p>
           </div>
         </div>
